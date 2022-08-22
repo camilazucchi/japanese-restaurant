@@ -1,0 +1,7 @@
+✎ Organizando o aprendizado
+
+✎ Primeira aula (1)
+    ☑ Criar projetos usando Create React App;
+    ☑ Utilização de templates, como -typescript- para criar projetos com CRA;
+    ☑ Utilização de CSS Modules com Typescript e Sass;
+    ☑ Aplicação de estilos escritos em Sass via CSS Modules (typescript-plugin-css-modules).
