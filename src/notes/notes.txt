@@ -5,3 +5,9 @@
     ☑ Utilização de templates, como -typescript- para criar projetos com CRA;
     ☑ Utilização de CSS Modules com Typescript e Sass;
     ☑ Aplicação de estilos escritos em Sass via CSS Modules (typescript-plugin-css-modules).
+
+✎ Segunda aula (2)
+    ☑ Importar um svg;
+    ☑ Utilizar um svg como componente;
+    ☑ Utilização de imports absolutos;
+    ☑ Utilizar a biblioteca reset CSS para resetar o CSS;

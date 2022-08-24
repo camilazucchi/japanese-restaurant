@@ -1,3 +1,7 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* RESET CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +44,12 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+body {
+  background-color: #F6F6F6;
+}
+
+* {
+  box-sizing: border-box;
 }
