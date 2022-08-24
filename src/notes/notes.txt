@@ -11,3 +11,10 @@
     ☑ Utilizar um svg como componente;
     ☑ Utilização de imports absolutos;
     ☑ Utilizar a biblioteca reset CSS para resetar o CSS;
+
+✎ Terceira aula (3)
+    ☑ Importar fontes externas;
+    ☑ Utilizar o normalize.css;
+    ☑ Utilizar ícones;
+    ☑ Ignorar arquivos para build;
+    ☑ Criar variáveis CSS;
