@@ -1,3 +1,58 @@
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.navbar {
+    padding: 20px $padding-horizontal;
+    @media (max-width: $desktop_xsm) {
+        padding: 20px $padding-horizontal-mobile;
+    }
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+        padding: 20px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 20px $padding-horizontal-md;
+    }    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0 $padding-horizontal;
+    background-image: url('/assets/menu/header__image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    @media (max-width: $desktop_xsm) {
+        padding: 0px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_md) {
+        padding: 0px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 0px $padding-horizontal-md;
+    }
+    &__text {
+        color: #fff;
+        font-size: 4rem;
+        min-width: 400px;
+        width: 40%;
+    }
+}
+
 .menu {
-    padding: 20px 250px;
+    padding: 30px $padding-horizontal;
+    @media (max-width: $desktop_xsm) {
+        padding: 50px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_xsm) and (max-width: $desktop-sm) {
+        padding: 50px $padding-horizontal-sm;
+    }
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 50px $padding-horizontal-md;
+    }
+    &__title {
+        color: $dark;
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
 }
