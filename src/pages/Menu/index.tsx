@@ -8,6 +8,7 @@ import Originator from './Originator';
 export default function Menu() {
     const [search, setSearch] = useState("");
     const [filter, setFilter] = useState<number | null>(null);
+    const [originator, setOriginator] = useState("");
     return (
         <main>
             <nav className={styles.navbar}>
@@ -28,7 +29,7 @@ export default function Menu() {
                 />
                 <div className={styles.menu__filters}>
                     <Filters filter={filter} setFilter={setFilter} />
-                    <Originator />
+                    <Originator originator={originator} setOriginator={setOriginator}/>
                 </div>
             </section>
         </main>
