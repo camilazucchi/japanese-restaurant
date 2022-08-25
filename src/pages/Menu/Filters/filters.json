@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Yakimono",
+        "id": 1
+    },
+    {
+        "label": "Nimono",
+        "id": 2
+    },
+    {
+        "label": "Itamemono",
+        "id": 3
+    },
+    {
+        "label": "Mushimono",
+        "id": 4
+    },
+    {
+        "label": "Agemono",
+        "id": 5
+    },
+    {
+        "label": "Sashimi",
+        "id": 6
+    }
+]
