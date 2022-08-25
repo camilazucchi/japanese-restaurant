@@ -6,6 +6,7 @@ import Filters from './Filters';
 
 export default function Menu() {
     const [search, setSearch] = useState("");
+    const [filter, setFilter] = useState<number | null>(null);
     return (
         <main>
             <nav className={styles.navbar}>
@@ -25,7 +26,7 @@ export default function Menu() {
                 setSearch={setSearch}
                 />
                 <div className={styles.menu__filters}>
-                    <Filters />
+                    <Filters filter={filter} setFilter={setFilter} />
                 </div>
             </section>
         </main>
