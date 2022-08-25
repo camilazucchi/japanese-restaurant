@@ -1,0 +1,50 @@
+@import "styles/variables";
+
+.originator {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 40px;
+    min-width: 240px;
+    height: 40px;
+    background-color: $grey;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    &--active {
+        background-color: $red;
+        color: white;
+    }
+    &__options {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        &--active {
+            display: flex;
+        }
+    }
+    &__option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        height: 40px;
+        width: inherit;
+        background-color: $grey;
+        border-top: 2px solid $light-grey;
+        color: $black;
+        &:hover,
+        &--active {
+            background-color: $red;
+            color: #ffff;
+            cursor: pointer;
+        }
+    }
+
+}

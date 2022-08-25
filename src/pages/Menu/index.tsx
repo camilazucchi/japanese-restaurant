@@ -3,6 +3,7 @@ import {ReactComponent as Logo} from 'assets/logo.svg';
 import Search from './Search';
 import { useState } from 'react';
 import Filters from './Filters';
+import Originator from './Originator';
 
 export default function Menu() {
     const [search, setSearch] = useState("");
@@ -27,6 +28,7 @@ export default function Menu() {
                 />
                 <div className={styles.menu__filters}>
                     <Filters filter={filter} setFilter={setFilter} />
+                    <Originator />
                 </div>
             </section>
         </main>
