@@ -24,3 +24,7 @@
     • É uma adição condicional de classes de forma facilitada;
     • Possibilita a formatação automática (adicionando um espaço entre cada condição).
     
+✎ Quarta aula (4)
+    ☑ Inferir o tipo de um objeto;
+    ☑ Manipular um objeto;
+    ☑ Utilização da biblioteca classnames.
