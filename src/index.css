@@ -1,5 +1,5 @@
 /* FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
   background-color: #F6F6F6;
@@ -7,5 +7,5 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
 }

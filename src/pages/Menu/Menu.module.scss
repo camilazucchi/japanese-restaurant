@@ -17,9 +17,52 @@
     }
 }
 
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px $padding-horizontal;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar svg path {
+    fill: black;
+}
+
+.navbar a {
+    padding-right: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline solid 4px;
+    }
+}
+
+.navbar button {
+    background-color: $red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    height: 60px;
+    width: 150px;
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: $desktop-sm) {
+        padding: 0;
+    }
+}
+
 .header {
     display: flex;
     align-items: center;
+    flex-direction: row;
     padding: 0 $padding-horizontal;
     background-image: url("/assets/menu/header__image.jpg");
     background-size: cover;

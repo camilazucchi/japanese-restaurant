@@ -4,6 +4,7 @@ import Search from './Search';
 import { useState } from 'react';
 import Filters from './Filters';
 import Originator from './Originator';
+import Items from './Items';
 
 export default function Menu() {
     const [search, setSearch] = useState("");
@@ -11,9 +12,19 @@ export default function Menu() {
     const [originator, setOriginator] = useState("");
     return (
         <main>
-            <nav className={styles.navbar}>
-                <Logo />
-            </nav>
+            <div className={styles.navbar}>
+                <div className={styles.navbar__logo}>
+                    <Logo />
+                </div>
+                <div className={styles.navbar__links}>
+                    <a>MENU</a>
+                    <a>FIND US</a>
+                    <a>CHEF'S FAVORITE</a>
+                </div>
+                <div className={styles.navbar__button}>
+                    <button>ORDER NOW</button>
+                </div>
+            </div>
             <header className={styles.header}>
                 <div className={styles.header__text}>
                     Original<br/>
@@ -31,6 +42,7 @@ export default function Menu() {
                     <Filters filter={filter} setFilter={setFilter} />
                     <Originator originator={originator} setOriginator={setOriginator}/>
                 </div>
+                <Items />
             </section>
         </main>
     )
