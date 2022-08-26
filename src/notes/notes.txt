@@ -18,3 +18,9 @@
     ☑ Utilizar ícones;
     ☑ Ignorar arquivos para build;
     ☑ Criar variáveis CSS;
+
+✎ Anotações adicionais
+✎ Sobre a biblioteca classnames:
+    • É uma adição condicional de classes de forma facilitada;
+    • Possibilita a formatação automática (adicionando um espaço entre cada condição).
+    
