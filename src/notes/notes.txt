@@ -28,3 +28,8 @@
     ☑ Inferir o tipo de um objeto;
     ☑ Manipular um objeto;
     ☑ Utilização da biblioteca classnames.
+
+✎ Quinta aula (5)
+    ☑ Renderizar uma lista de components;
+    ☑ Utilizar a pasta public;
+    ☑ Gerar os arquivos utilizados em produção.
