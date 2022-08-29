@@ -1,6 +1,6 @@
 [
     {
-        "title": "Gyoza",
+        "title": "Gyoza 餃子",
         "description": "Gyoza are Japanese dumplings, first pan-fried until golden brown and crispy, then steamed, resulting in a tender chew and juicy, cooked filling.",
         "photo": "/assets/dishes/gyoza.jpg",
         "size": "400",
@@ -13,7 +13,7 @@
         }
         
     },{
-        "title": "Kushikatsu",
+        "title": "Kushikatsu 串カツ",
         "description": "Also called kushiage, kushikatsu refers to deep-fried skewers of fruit, proteins, or vegetables served with a thin, savory dipping sauce.",
         "photo": "/assets/dishes/kushikatsu.jpg",
         "size": "400",
@@ -26,7 +26,7 @@
         }
         
     },{
-        "title": "Saba no Misoni",
+        "title": "Saba Misoni 鯖の味噌煮",
         "description": "Saba no misoni is a popular dish of mackerel fish simmered in a miso and ginger-based sauce.",
         "photo": "/assets/dishes/saba_no_misoni.jpg",
         "size": "400",
@@ -38,7 +38,7 @@
             "label": "Nimono"
         }
     },{
-        "title": "Kakuni",
+        "title": "Kakuni 角煮",
         "description": "Kakuni, or buta no kakuni, is a rich dish of pork belly stewed in soy sauce until the pork becomes succulent and melts with every bite.",
         "photo": "/assets/dishes/kakuni.jpg",
         "size": "400",
@@ -50,7 +50,7 @@
             "label": "Nimono"
         }
     },{
-        "title": "Yakisoba",
+        "title": "Yakisoba 焼きそば",
         "description": "Japanese yakisoba is a stir-fry dish consisting of “Chinese-style” buckwheat noodles, diced meat (usually pork belly, but sometimes chicken), and veggies, tossed with a thick, sweet sauce similar to Worcestershire sauce.",
         "photo": "/assets/dishes/yakisoba.jpg",
         "size": "400",
@@ -62,7 +62,7 @@
             "label": "Itamemono"
         }
     },{
-        "title": "Moyashi Itame",
+        "title": "Moyashi Itame もやし",
         "description": "Moyashi Itame is made with pork belly and bean sprouts.",
         "photo": "/assets/dishes/moyashi_itame.webp",
         "size": "400",
@@ -74,7 +74,7 @@
             "label": "Itamemono"
         }
     },{
-        "title": "Sake",
+        "title": "Sake サーモン",
         "description": "Sake is another fish that is popularly served as sashimi. Its bright orange flesh is tender, fatty and delicious.",
         "photo": "/assets/dishes/sake_sashimi.jpg",
         "size": "400",
@@ -86,7 +86,7 @@
             "label": "Sashimi"
         }
     },{
-        "title": "Tako",
+        "title": "Tako たこ",
         "description": "Tako is another typical item in Japanese cuisine; the tentacles are often thinly sliced and served as sashimi.",
         "photo": "/assets/dishes/tako_sashimi.jpg",
         "size": "400",

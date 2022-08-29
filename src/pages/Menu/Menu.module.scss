@@ -28,17 +28,13 @@
     color: #000;
 }
 
-.navbar svg path {
-    fill: black;
-}
-
 .navbar a {
     padding-right: 40px;
     font-size: 1rem;
     font-weight: 600;
     &:hover {
         cursor: pointer;
-        text-decoration: underline solid 4px;
+        text-decoration: underline solid $red 4px;
     }
 }
 
@@ -64,10 +60,10 @@
     align-items: center;
     flex-direction: row;
     padding: 0 $padding-horizontal;
-    background-image: url("/assets/menu/header__image.jpg");
+    background-image: url("/assets/menu/food_header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 800px;
 
     @media (max-width: $desktop_xsm) {
         padding: 0px $padding-horizontal-sm;
@@ -83,7 +79,8 @@
 
     &__text {
         color: #fff;
-        font-size: 4rem;
+        font-size: 6rem;
+        letter-spacing: 4px;
         min-width: 400px;
         width: 40%;
     }

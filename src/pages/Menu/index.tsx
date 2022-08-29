@@ -27,8 +27,10 @@ export default function Menu() {
             </div>
             <header className={styles.header}>
                 <div className={styles.header__text}>
-                    Original<br/>
-                    Japanese Cousine
+                    食べ物<br/>
+                    Original 
+                    Japanese
+                    Cousine
                 </div>
             </header>
 

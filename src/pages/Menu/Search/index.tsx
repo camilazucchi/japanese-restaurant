@@ -17,7 +17,7 @@ export default function Search({search, setSearch}: Props) {
             />
             <CgSearch 
                 size={20}
-                color="#4c4D5E"
+                color="$grey"
             />
         </div>
     )

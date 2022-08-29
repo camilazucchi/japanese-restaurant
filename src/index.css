@@ -1,5 +1,5 @@
 /* FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
   background-color: #F6F6F6;
@@ -7,5 +7,5 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
 }

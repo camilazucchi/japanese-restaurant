@@ -4,15 +4,20 @@
 .item {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 40%;
+    margin-top: 10px;
     &__image {
         min-width: 240px;
+        object-fit: cover;
         @media (max-width: $desktop_xsm) {
             width: 100%;
         }
         img {
+            margin-top: 30px;
             border-radius: 8px;
-            width: 100%;
+            object-fit: cover;
+            height: 260px;
+            width: 260px;
         }
     }
     &__description {
