@@ -44,7 +44,7 @@ export default function Menu() {
                     <Filters filter={filter} setFilter={setFilter} />
                     <Originator originator={originator} setOriginator={setOriginator}/>
                 </div>
-                <Items />
+                <Items search={search} filter={filter} originator={originator}/>
             </section>
         </main>
     )

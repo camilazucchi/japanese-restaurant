@@ -4,7 +4,7 @@
 .item {
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 70%;
     margin-top: 10px;
     &__image {
         min-width: 240px;
@@ -27,6 +27,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         padding: 0 20px;
+        text-align: left;
         @media (max-width: $desktop_xsm) {
             flex-direction: row;
             margin-top: 20px;

@@ -1,6 +1,7 @@
 .items {
     display: flex;
     flex-direction: column;
+    flex: content;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 40px;
