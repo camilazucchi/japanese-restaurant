@@ -33,3 +33,8 @@
     ☑ Renderizar uma lista de components;
     ☑ Utilizar a pasta public;
     ☑ Gerar os arquivos utilizados em produção.
+
+✎ Sexta aula (6)
+    ☑ Buscar com expressão regular;
+    ☑ Manipular elementos de uma lista;
+    ☑ Tipar o  useState.
