@@ -19,7 +19,7 @@ export default function Menu() {
         <div className={styles.navbar__links}>
           <a>MENU</a>
           <a>FIND US</a>
-          <a>CHEF`&apos;`S FAVORITE</a>
+          <a>CHEF&#39;S FAVORITE</a>
         </div>
         <div className={styles.navbar__button}>
           <button>ORDER NOW</button>
