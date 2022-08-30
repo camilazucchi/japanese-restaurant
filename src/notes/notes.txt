@@ -38,3 +38,8 @@
     ☑ Buscar com expressão regular;
     ☑ Manipular elementos de uma lista;
     ☑ Tipar o  useState.
+
+✎ Sétima aula (7)
+    ☑ ESLint: o que é e como configurar;
+    ☑ Como corrigir erros de código seguindo as regras da configuração;
+    ☑ Criar a página de início da aplicação.
