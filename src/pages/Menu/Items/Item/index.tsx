@@ -1,5 +1,5 @@
 import styles from './Item.module.scss';
-import menu from '../items.json';
+import menu from 'data/menu.json';
 import classNames from 'classnames';
 
 type Props = typeof menu[0];
