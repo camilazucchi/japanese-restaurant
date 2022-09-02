@@ -1,0 +1,56 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.navbar {
+    padding: 20px $padding-horizontal;
+
+    @media (max-width: $desktop_xsm) {
+        padding: 20px $padding-horizontal-mobile;
+    }
+
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+        padding: 20px $padding-horizontal-sm;
+    }
+
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 20px $padding-horizontal-md;
+    }
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px $padding-horizontal;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar a {
+    padding-right: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline solid $red 4px;
+    }
+}
+
+.navbar button {
+    background-color: $red;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    height: 60px;
+    width: 150px;
+    &:hover {
+        cursor: pointer;
+    }
+
+    @media (max-width: $desktop-sm) {
+        padding: 0;
+    }
+}

@@ -1,5 +1,4 @@
 import styles from './Menu.module.scss';
-import {ReactComponent as Logo} from 'assets/logo.svg';
 import Search from './Search';
 import { useState } from 'react';
 import Filters from './Filters';
@@ -12,27 +11,14 @@ export default function Menu() {
   const [originator, setOriginator] = useState('');
   return (
     <main>
-      <div className={styles.navbar}>
-        <div className={styles.navbar__logo}>
-          <Logo />
-        </div>
-        <div className={styles.navbar__links}>
-          <a>MENU</a>
-          <a>FIND US</a>
-          <a>CHEF&#39;S FAVORITE</a>
-        </div>
-        <div className={styles.navbar__button}>
-          <button>ORDER NOW</button>
-        </div>
-      </div>
-      <header className={styles.header}>
+      <div className={styles.header}>
         <div className={styles.header__text}>
                     食べ物<br/>
                     Original 
                     Japanese
                     Cousine
         </div>
-      </header>
+      </div>
 
       <section className={styles.menu}>
         <h3 className={styles.menu__title}>Menu</h3>

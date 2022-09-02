@@ -1,3 +1,4 @@
+import Navbar from 'components/Navbar';
 import Index from 'pages/Index';
 import Menu from 'pages/Menu';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
@@ -6,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 export default function AppRouter() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Index />} />
         <Route path='/menu' element={<Menu />}/>
