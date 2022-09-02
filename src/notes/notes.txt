@@ -43,3 +43,8 @@
     ☑ ESLint: o que é e como configurar;
     ☑ Como corrigir erros de código seguindo as regras da configuração;
     ☑ Criar a página de início da aplicação.
+
+✎ Oitava aula (8)
+    ☑ Separar os dados do cardápio para uma pasta separada;
+    ☑ BrowserRouter e HashRouter;
+    ☑ Routes.
