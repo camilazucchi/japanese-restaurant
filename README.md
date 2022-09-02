@@ -1,5 +1,33 @@
-Japanese Restaurant é o meu segundo projeto feito em React, através da trilha de React da Alura.
-Trata-se de um menu virtual de um restaurante japonês, com filtros para cada comida.
+## :memo: Descrição
+Escreva uma descrição do seu projeto
 
-Japanese Restaurant is my second project made with React! This project was made with instructions from Alura, an online course platform.
-It's a online menu of a japanese restaurant, with filters for each dish.
+## :books: Funcionalidades
+* <b>Funcionalidade 1</b>: O que essa funcionalidade faz?
+
+## :wrench: Tecnologias utilizadas
+* Tecnologia;
+
+## :rocket: Rodando o projeto
+Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando para iniciar o projeto:
+```
+<linha de comando>
+```
+
+## :soon: Implementação futura
+* O que será implementado na próxima sprint?
+
+## :handshake: Colaboradores
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/tatialveso">
+        <img src="https://avatars.githubusercontent.com/u/56259137?v=4" width="100px;" alt="Foto de Tati Alves no GitHub"/><br>
+        <sub>
+          <b>tatialveso</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## :dart: Status do projeto
