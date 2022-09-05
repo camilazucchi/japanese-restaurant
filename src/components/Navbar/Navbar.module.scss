@@ -25,16 +25,18 @@
     justify-content: space-between;
     padding: 20px $padding-horizontal;
     background-color: #fff;
-    color: #000;
-}
-
-.navbar a {
+    &__links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     padding-right: 40px;
-    font-size: 1rem;
+    a {
+    font-size: 1.1rem;
     font-weight: 600;
-    &:hover {
-        cursor: pointer;
-        text-decoration: underline solid $red 4px;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    }
     }
 }
 
