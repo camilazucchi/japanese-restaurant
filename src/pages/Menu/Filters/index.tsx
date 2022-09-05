@@ -1,7 +1,7 @@
 import React from 'react';
+import classNames from 'classnames';
 import filters from './filters.json';
 import styles from './Filters.module.scss';
-import classNames from 'classnames';
 
 type optionInterface = typeof filters[0];
 

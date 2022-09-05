@@ -1,8 +1,8 @@
-import styles from './Originator.module.scss';
-import options from './options.json';
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import styles from './Originator.module.scss';
+import options from './options.json';
 
 interface Props {
     originator: string,

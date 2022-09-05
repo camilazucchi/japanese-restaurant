@@ -1,6 +1,6 @@
+import { useState } from 'react';
 import styles from './Menu.module.scss';
 import Search from './Search';
-import { useState } from 'react';
 import Filters from './Filters';
 import Originator from './Originator';
 import Items from './Items';

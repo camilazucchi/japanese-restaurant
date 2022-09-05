@@ -1,4 +1,5 @@
 import {ReactComponent as Logo} from 'assets/logo.svg';
+import { Link } from 'react-router-dom';
 import styles from './Navbar.module.scss';
 
 export default function Navbar() {
@@ -20,9 +21,9 @@ export default function Navbar() {
       <ul className={styles.navbar}>
         {routes.map((route, index) => (
           <li key={index} className={styles.navbar__links}>
-            <a href={route.to}>
+            <Link to={route.to}>
               {route.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
