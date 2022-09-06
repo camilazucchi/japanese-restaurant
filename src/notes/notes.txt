@@ -48,3 +48,9 @@
     ☑ Separar os dados do cardápio para uma pasta separada;
     ☑ BrowserRouter e HashRouter;
     ☑ Routes.
+
+✎ Nona aula (9)
+    ☑ Reutilizar o menu;
+    ☑ Reaproveitar o header utilizando o react-router-dom;
+    ☑ Utilizar o componente Link;
+    ☑ Fazer a página padrão.
