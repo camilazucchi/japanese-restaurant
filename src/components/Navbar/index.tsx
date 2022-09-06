@@ -11,7 +11,7 @@ export default function Navbar() {
     to: '/find-us'
   },{
     label: 'FAVORITES',
-    to: '/favorites'
+    to: '/'
   }];
   return (
     <nav className={styles.navbar}>

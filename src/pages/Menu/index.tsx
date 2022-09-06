@@ -10,28 +10,17 @@ export default function Menu() {
   const [filter, setFilter] = useState<number | null>(null);
   const [originator, setOriginator] = useState('');
   return (
-    <main>
-      <div className={styles.header}>
-        <div className={styles.header__text}>
-                    食べ物<br/>
-                    Original 
-                    Japanese
-                    Cousine
-        </div>
+    <section className={styles.menu}>
+      <h3 className={styles.menu__title}>Menu</h3>
+      <Search
+        search={search}
+        setSearch={setSearch}
+      />
+      <div className={styles.menu__filters}>
+        <Filters filter={filter} setFilter={setFilter} />
+        <Originator originator={originator} setOriginator={setOriginator}/>
       </div>
-
-      <section className={styles.menu}>
-        <h3 className={styles.menu__title}>Menu</h3>
-        <Search
-          search={search}
-          setSearch={setSearch}
-        />
-        <div className={styles.menu__filters}>
-          <Filters filter={filter} setFilter={setFilter} />
-          <Originator originator={originator} setOriginator={setOriginator}/>
-        </div>
-        <Items search={search} filter={filter} originator={originator}/>
-      </section>
-    </main>
+      <Items search={search} filter={filter} originator={originator}/>
+    </section>
   );
 }

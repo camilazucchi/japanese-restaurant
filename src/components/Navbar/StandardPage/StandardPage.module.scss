@@ -1,0 +1,33 @@
+@import "styles/variables";
+@import "styles/breakpoints";
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 $padding-horizontal;
+    background-image: url("/assets/menu/food_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+
+    @media (max-width: $desktop_xsm) {
+        padding: 0px $padding-horizontal-sm;
+    }
+
+    @media (min-width: $desktop_xsm) and (max-width: $desktop_md) {
+        padding: 0px $padding-horizontal-sm;
+    }
+
+    @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+        padding: 0px $padding-horizontal-md;
+    }
+
+    &__text {
+        color: #fff;
+        font-size: 6rem;
+        letter-spacing: 4px;
+        min-width: 400px;
+        width: 40%;
+    }
+}

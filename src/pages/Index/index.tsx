@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <section>
       <h3 className={styles.title}>
-        Chef&#39;s Favorite
+        Our favorite dishes
       </h3>
       <div className={styles.recommendation}>
         {recommendedDishes.map(item => (
