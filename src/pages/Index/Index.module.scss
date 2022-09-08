@@ -1,11 +1,5 @@
 @import 'styles/variables';
 
-.title {
-    color: $dark;
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
 .recommendation {
     display: flex;
     justify-content: space-between;
@@ -49,7 +43,7 @@
         width: 100%;
         border-radius: 5px;
     }
-    &__adress {
+    &__address {
         display: flex;
         position: absolute;
         align-items: center;
@@ -61,8 +55,11 @@
         left: 0;
         right: 0;
         width: 200px;
-        background-color: $dark;
+        padding: 30px;
+        background-color: $red;
         border-radius: 5px;
         font-weight: bold;
+        color: #fff;
+        text-align: center;
     }
 }

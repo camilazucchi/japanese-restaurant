@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Menu.module.scss';
+import stylesTheme from 'styles/_theme.module.scss';
 import Search from './Search';
 import Filters from './Filters';
 import Originator from './Originator';
@@ -11,7 +12,7 @@ export default function Menu() {
   const [originator, setOriginator] = useState('');
   return (
     <section className={styles.menu}>
-      <h3 className={styles.menu__title}>Menu</h3>
+      <h3 className={stylesTheme.title}>Menu</h3>
       <Search
         search={search}
         setSearch={setSearch}

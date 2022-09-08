@@ -15,38 +15,15 @@
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
         padding: 50px $padding-horizontal-md;
     }
-
-    &__title {
-        color: $dark;
-        font-size: 2rem;
-        margin-bottom: 30px;
-    }
 }
 
-.filters {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin: 20px 0;
-
-    &__filter {
+.menu {
+    &__filters {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
-        height: 40px;
-        width: 150px;
-        border: none;
-        border-radius: 4px;
-        font-size: 1.25rem;
-        font-weight: bold;
-        background-color: $grey;
-
-        &--active {
-            background-color: $red;
-        }
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 30px;
+}
 }
