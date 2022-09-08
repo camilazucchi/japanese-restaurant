@@ -21,7 +21,7 @@ export default function Index() {
           </div>
         ))}
       </div>
-      <h3 className={stylesTheme.title}> Find Us </h3>
+      <h3 className={stylesTheme.title}> Our House </h3>
       <div className={styles.ourHouse}>
         <img src={ourHouse} alt='Where we are located' />
         <div className={styles.ourHouse__address}>

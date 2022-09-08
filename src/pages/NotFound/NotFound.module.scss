@@ -1,0 +1,21 @@
+@import 'styles/variables';
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    img {
+        width: 25%;
+    }
+    &__text {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $red;
+    }
+}

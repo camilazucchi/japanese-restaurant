@@ -7,11 +7,11 @@ export default function Navbar() {
     label: 'MENU',
     to: '/menu'
   }, {
-    label: 'FIND US',
-    to: '/find-us'
-  },{
     label: 'FAVORITES',
     to: '/'
+  },{
+    label: 'ABOUT US',
+    to: '/about-us'
   }];
   return (
     <nav className={styles.navbar}>
