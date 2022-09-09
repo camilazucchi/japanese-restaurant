@@ -54,3 +54,9 @@
     ☑ Reaproveitar o header utilizando o react-router-dom;
     ☑ Utilizar o componente Link;
     ☑ Fazer a página padrão.
+
+✎ Décima aula (10)
+    ☑ Desenvolver um tema para a aplicação;
+    ☑ Aplicar o componente Outlet do react-router-dom;
+    ☑ Utilizar o hook useNavigate para navegar entre rotas;
+    ☑ Criar uma tela not found.
