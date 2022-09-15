@@ -1,0 +1,46 @@
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.return {
+    background-color: transparent;
+    border: none;
+    color: $red;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.image {
+    width: 600px;
+    img {
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__description {
+        color: $dark-grey;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    &__details {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

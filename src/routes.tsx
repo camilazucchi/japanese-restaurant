@@ -7,11 +7,12 @@ import Menu from 'pages/Menu';
 import About from 'pages/About';
 import Footer from 'components/Footer';
 import NotFound from 'pages/NotFound';
+import Dishes from 'pages/Dishes';
 
 export default function AppRouter() {
   return (
     <main className='container'>
-      {/* Nested Routes  */}
+      {/* Nested Routes */}
       <Router>
         <Navbar />
         <Routes>
@@ -20,6 +21,7 @@ export default function AppRouter() {
             <Route path='menu' element={<Menu />} />
             <Route path='about-us' element={<About />} />
           </Route>
+          <Route path='dishes/:id' element={<Dishes />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />

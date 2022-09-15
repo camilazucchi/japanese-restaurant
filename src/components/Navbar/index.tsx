@@ -4,11 +4,11 @@ import styles from './Navbar.module.scss';
 
 export default function Navbar() {
   const routes =[{
+    label: 'INDEX',
+    to: '/'
+  }, {
     label: 'MENU',
     to: '/menu'
-  }, {
-    label: 'FAVORITES',
-    to: '/'
   },{
     label: 'ABOUT US',
     to: '/about-us'

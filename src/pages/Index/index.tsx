@@ -1,13 +1,21 @@
+import { useNavigate } from 'react-router-dom';
 import menu from 'data/menu.json';
 import styles from './Index.module.scss';
 import stylesTheme from 'styles/_theme.module.scss';
 import ourHouse from 'assets/ourHouse.jpg';
+import { Dish } from 'types/Dish';
 
 export default function Index() {
   let recommendedDishes = [...menu];
   recommendedDishes = recommendedDishes
     .sort(() => 0.5 - Math.random())
-    .splice(0, 3);
+    .splice(0, 4);
+  const navigate = useNavigate();
+
+  function redirectToDetails(dishes: Dish) {
+    navigate(`/dishes/${dishes.id}`, { state: { dishes }, replace: true });
+  }
+
   return (
     <section>
       <h3 className={stylesTheme.title}>Our favorite dishes</h3>
@@ -17,7 +25,11 @@ export default function Index() {
             <div className={styles.recommended__image}>
               <img src={item.photo} alt={item.title} />
             </div>
-            <button className={styles.recommended__button}>See more</button>
+            <button
+              className={styles.recommended__button}
+              onClick={() => redirectToDetails(item)}
+            >See more
+            </button>
           </div>
         ))}
       </div>

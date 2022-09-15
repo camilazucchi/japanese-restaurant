@@ -1,0 +1,63 @@
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+$yakimono: #92929d;
+$nimono: #000;
+$itamemono: #ff0000;
+$sashimi: #92929d;
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    max-width: 700px;
+    @media (max-width: $desktop_xsm) {
+        justify-content: flex-end;
+    }
+    @media (max-width: $mobile) {
+        justify-content: flex-start;
+    }
+    div {
+        margin: 10px;
+    }
+    &__type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        padding: 10px 30px;
+        font-weight: bold;
+        border-radius: 2px;
+        &__yakimono {
+            background-color: $dark-grey;
+            color: #fff;
+        }
+        &__nimono {
+            background-color: #000;
+            color: #fff;
+        }
+        &__itamemono {
+            background-color: $red;
+            color: #fff;
+        }
+        &__sashimi {
+            background-color: $dark-grey;
+            color: #fff;
+        }
+    }
+    &__portion,
+    &__serving,
+    &__price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    &__price {
+        color: $red;
+        font-size: 1.7rem;
+    }
+}

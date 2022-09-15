@@ -60,3 +60,11 @@
     ☑ Aplicar o componente Outlet do react-router-dom;
     ☑ Utilizar o hook useNavigate para navegar entre rotas;
     ☑ Criar uma tela not found.
+
+✎ Décima primeira aula (11)
+    ☑ Criar a rota pratos;
+    ☑ Passar parâmetros na rota;
+    ☑ Criar detalhes do prato;
+    ☑ Utilizar o hook useLocation;
+    ☑ Passar estados entre rotas;
+    ☑ Refatorar tags.
