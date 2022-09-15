@@ -68,3 +68,8 @@
     ☑ Utilizar o hook useLocation;
     ☑ Passar estados entre rotas;
     ☑ Refatorar tags.
+
+✎ Décima segunda aula (12)
+    ☑ Acrescentar a tela NotFound na tela de detalhes;
+    ☑ Utilizar o componente Redirect;
+    ☑ Resolver o header.
