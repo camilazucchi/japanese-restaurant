@@ -1,15 +1,19 @@
 # Japanese Restaurant
 ## Apresentação
-- Index
-![Index](https://uploaddeimagens.com.br/images/004/262/389/original/japaneseRestaurant.PNG?1671130316)
+1. Index
 
-- Menu
+![Index](https://uploaddeimagens.com.br/images/004/262/409/original/japaneseRestaurant.PNG?1671130886)
+
+2. Menu
+
 ![Menu](https://uploaddeimagens.com.br/images/004/262/393/original/menu.png?1671130463)
 
 3. About Us
+
 ![About Us](https://uploaddeimagens.com.br/images/004/262/399/original/AboutUs.png?1671130570)
 
 4. Page Not Found
+
 ![Page Not Found](https://uploaddeimagens.com.br/images/004/262/401/original/pageNotFound.png?1671130617)
 
 ## Sobre
