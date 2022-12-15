@@ -12,7 +12,6 @@ import Dishes from 'pages/Dishes';
 export default function AppRouter() {
   return (
     <main className='container'>
-      {/* Nested Routes */}
       <Router>
         <Navbar />
         <Routes>
