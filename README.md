@@ -1,16 +1,16 @@
 # Japanese Restaurant
 ## Apresentação
 - Index
-!(https://uploaddeimagens.com.br/images/004/262/389/original/japaneseRestaurant.PNG?1671130316)
-<br>
+![Index](https://uploaddeimagens.com.br/images/004/262/389/original/japaneseRestaurant.PNG?1671130316)
+
 - Menu
-!(https://uploaddeimagens.com.br/images/004/262/393/original/menu.png?1671130463)
-<br>
+![Menu](https://uploaddeimagens.com.br/images/004/262/393/original/menu.png?1671130463)
+
 3. About Us
-!(https://uploaddeimagens.com.br/images/004/262/399/original/AboutUs.png?1671130570)
-<br>
+![About Us](https://uploaddeimagens.com.br/images/004/262/399/original/AboutUs.png?1671130570)
+
 4. Page Not Found
-!(https://uploaddeimagens.com.br/images/004/262/401/original/pageNotFound.png?1671130617)
+![Page Not Found](https://uploaddeimagens.com.br/images/004/262/401/original/pageNotFound.png?1671130617)
 
 ## Sobre
 Japanese Restaurant é um site feito para um restaurante de comida japonês, utilizando React.
